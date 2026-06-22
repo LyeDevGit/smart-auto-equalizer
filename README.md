@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="lye.png" alt="Lye Equalizer Interface" width="500" />
+  <img src="imgs/showcase.png" alt="Lye Equalizer Interface" width="500" />
   <h1>Lye Equalizer</h1>
   <p>A Manifest V3 browser EQ with a built-in limiter and auto-resonance suppression.</p>
 </div>
