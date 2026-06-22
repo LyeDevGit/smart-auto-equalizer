@@ -1,0 +1,35 @@
+{
+  "manifest_version": 3,
+  "name": "Lye Equalizer",
+  "version": "1.0.0",
+  "description": "Open source browser equalizer — Auto-EQ with real-time spectrum analysis, LUFS normalization, and brickwall limiting.",
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "action": {
+    "default_popup": "popup/index.html",
+    "default_title": "Lye Equalizer"
+  },
+  "background": {
+    "service_worker": "scripts/background.js",
+    "type": "module"
+  },
+  "permissions": [
+    "tabCapture",
+    "tabs",
+    "storage",
+    "offscreen"
+  ],
+  "commands": {
+    "toggle-eq": {
+      "suggested_key": { "default": "Alt+E" },
+      "description": "Toggle Lye Equalizer on/off"
+    },
+    "toggle-bypass": {
+      "suggested_key": { "default": "Alt+B" },
+      "description": "Toggle EQ bypass"
+    }
+  }
+}
