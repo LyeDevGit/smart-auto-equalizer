@@ -173,7 +173,7 @@ export default function App() {
             className="btn btn-fixed" data-state={settings.loudnessNorm ? 'on' : 'off'}
             onClick={() => update({ loudnessNorm: !settings.loudnessNorm })}
           >
-            Loudness Norm
+            Volume
           </button>
           <div className="slider-group">
             <input 
